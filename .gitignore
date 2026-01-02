@@ -1,0 +1,53 @@
+# ===== Build directories =====
+build/
+out/
+cmake-build-*/
+CMakeFiles/
+
+# ===== CMake generated files =====
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+*.cmake.user
+
+# ===== Compiled binaries =====
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.exp
+
+# ===== Object / temp files =====
+*.o
+*.obj
+*.lo
+*.tmp
+
+# ===== Visual Studio =====
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+launch.vs.json
+CMakeSettings.json
+
+# ===== Debug / Release folders =====
+Debug/
+Release/
+x64/
+Win32/
+
+# ===== vcpkg =====
+vcpkg_installed/
+**/vcpkg_installed/
+vcpkg/
+
+# ===== OS junk =====
+Thumbs.db
+.DS_Store
+
+# ===== Logs =====
+*.log
