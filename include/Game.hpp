@@ -1,5 +1,6 @@
 #pragma once
 #include "SFML/Graphics.hpp"
+#include "Grid.hpp"
 
 class Game
 {
@@ -14,4 +15,5 @@ private:
 
 private:
 	sf::RenderWindow m_window;
+	Grid m_grid;
 };

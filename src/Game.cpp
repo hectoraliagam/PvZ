@@ -34,6 +34,7 @@ void Game::update()
 
 void Game::render()
 {
-	m_window.clear(sf::Color(30, 100, 30));
+	m_window.clear(sf::Color(30, 150, 30));
+	m_grid.draw(m_window);
 	m_window.display();
 }
